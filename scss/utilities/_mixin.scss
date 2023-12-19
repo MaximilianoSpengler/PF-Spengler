@@ -1,0 +1,4 @@
+@mixin center ($justify-content, $align-items){
+    justify-content: $justify-content;
+    align-items: $align-items;
+}

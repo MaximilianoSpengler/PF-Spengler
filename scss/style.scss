@@ -1,0 +1,173 @@
+@import "utilities/variables";
+@import "utilities/mixin";
+
+* {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    background-image: url(../images/barra-zapata.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .cartas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: $gap-grid;
+        @include center(center, center);
+    }
+
+    .bebidas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: $gap-grid;
+        align-items: center;
+    }
+
+    .locales {
+        display: flex;
+        @include center(center, center); 
+        gap: 40px;
+        margin-top: 50px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        background-color: #010101;
+        justify-content: center;
+        padding-top: 20px;
+        margin: 0;
+        flex-wrap: wrap;
+
+        nav {
+            div {
+                div {
+                    ul {
+                        list-style: none;
+                        display: flex;
+                        gap: 60px;
+                        font-size: 20px;
+                        flex-wrap: wrap;
+
+                        li {
+                            .mousse-hover:hover {
+                                color: gold;
+                            }
+
+                            a {
+                                text-decoration: none;
+                                color: white;
+
+                            }
+                        }
+
+                    }
+                }
+
+                .navbar-toggler {
+                    background-color: lightgray;
+                }
+            }
+        }
+    }
+
+    main {
+        .formulario-contacto {
+            display: flex;
+            gap: 45px;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            color: whitesmoke;
+
+            .title {
+                color: whitesmoke;
+            }
+        }
+
+        h3 {
+            color: whitesmoke;
+
+            .subtitle {
+                color: whitesmoke;
+            }
+        }
+
+        p {
+            color: whitesmoke
+        }
+
+        .botella-zapata {
+            text-align: center;
+        }
+
+        div {
+
+            ul {
+                li {
+                    color: whitesmoke;
+                }
+            }
+
+            h5 {
+                color: whitesmoke;
+            }
+
+            h4 {
+                color: whitesmoke;
+            }
+
+            .imagen {
+                object-fit: fill;
+                width: 100%;
+                height: 100%;
+                width: 350px;
+                height: 350px;
+            }
+
+
+
+            form {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                color: whitesmoke;
+                justify-content: center;
+            }
+        }
+    }
+
+    footer {
+        color: whitesmoke;
+    }
+
+    .menu-apto {
+        text-decoration: underline;
+    }
+
+    .derechos {
+        text-align: center;
+    }
+
+    @media screen and (max-width:1024px) {
+        .locales {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .formulario-contacto {
+            flex-direction: column;
+        }
+    }
+}

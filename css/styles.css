@@ -1,0 +1,100 @@
+* {
+  font-family: 'Merriweather', serif; }
+
+body {
+  background-image: url(../images/barra-zapata.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  body .cartas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center; }
+  body .bebidas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    align-items: center; }
+  body .locales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+    width: 100%;
+    flex-wrap: wrap; }
+  body header {
+    display: flex;
+    align-items: center;
+    background-color: #010101;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 0;
+    flex-wrap: wrap; }
+    body header nav div div ul {
+      list-style: none;
+      display: flex;
+      gap: 60px;
+      font-size: 20px;
+      flex-wrap: wrap; }
+      body header nav div div ul li .mousse-hover:hover {
+        color: gold; }
+      body header nav div div ul li a {
+        text-decoration: none;
+        color: white; }
+    body header nav div .navbar-toggler {
+      background-color: lightgray; }
+  body main .formulario-contacto {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px; }
+  body main h1 {
+    text-align: center;
+    color: whitesmoke; }
+    body main h1 .title {
+      color: whitesmoke; }
+  body main h3 {
+    color: whitesmoke; }
+    body main h3 .subtitle {
+      color: whitesmoke; }
+  body main p {
+    color: whitesmoke; }
+  body main .botella-zapata {
+    text-align: center; }
+  body main div ul li {
+    color: whitesmoke; }
+  body main div h5 {
+    color: whitesmoke; }
+  body main div h4 {
+    color: whitesmoke; }
+  body main div .imagen {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    width: 350px;
+    height: 350px; }
+  body main div form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: whitesmoke;
+    justify-content: center; }
+  body footer {
+    color: whitesmoke; }
+  body .menu-apto {
+    text-decoration: underline; }
+  body .derechos {
+    text-align: center; }
+  @media screen and (max-width: 1024px) {
+    body .locales {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    body .formulario-contacto {
+      flex-direction: column; } }
