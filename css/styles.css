@@ -5,8 +5,10 @@ body {
   background-image: url(../images/barra-zapata.jpg);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  margin: 20px; }
   body .cartas {
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -14,6 +16,8 @@ body {
     justify-content: center;
     align-items: center; }
   body .bebidas {
+    text-align: center;
+    justify-content: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -32,8 +36,7 @@ body {
     align-items: center;
     background-color: #010101;
     justify-content: center;
-    padding-top: 20px;
-    margin: 0;
+    padding-top: 10px;
     flex-wrap: wrap; }
     body header nav div div ul {
       list-style: none;
@@ -68,6 +71,7 @@ body {
   body main .botella-zapata {
     text-align: center; }
   body main div ul li {
+    list-style: none;
     color: whitesmoke; }
   body main div h5 {
     color: whitesmoke; }
@@ -88,7 +92,8 @@ body {
   body footer {
     color: whitesmoke; }
   body .menu-apto {
-    text-decoration: underline; }
+    text-decoration: underline;
+    text-align: center; }
   body .derechos {
     text-align: center; }
   @media screen and (max-width: 1024px) {

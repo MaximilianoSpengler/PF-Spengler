@@ -10,8 +10,10 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin: 20px;
 
     .cartas {
+        text-align: center;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -19,7 +21,10 @@ body {
         @include center(center, center);
     }
 
+
     .bebidas {
+        text-align: center;
+        justify-content: center;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -29,7 +34,7 @@ body {
 
     .locales {
         display: flex;
-        @include center(center, center); 
+        @include center(center, center);
         gap: 40px;
         margin-top: 50px;
         width: 100%;
@@ -41,8 +46,7 @@ body {
         align-items: center;
         background-color: #010101;
         justify-content: center;
-        padding-top: 20px;
-        margin: 0;
+        padding-top: 10px;
         flex-wrap: wrap;
 
         nav {
@@ -78,6 +82,7 @@ body {
     }
 
     main {
+
         .formulario-contacto {
             display: flex;
             gap: 45px;
@@ -113,8 +118,11 @@ body {
 
         div {
 
+
             ul {
+                
                 li {
+                    list-style: none;
                     color: whitesmoke;
                 }
             }
@@ -153,6 +161,7 @@ body {
 
     .menu-apto {
         text-decoration: underline;
+        text-align: center;
     }
 
     .derechos {
