@@ -51,6 +51,8 @@ body {
         color: white; }
     body header nav div .navbar-toggler {
       background-color: lightgray; }
+  body main h4 {
+    color: whitesmoke; }
   body main .formulario-contacto {
     display: flex;
     gap: 45px;
@@ -59,7 +61,8 @@ body {
     padding: 50px; }
   body main h1 {
     text-align: center;
-    color: whitesmoke; }
+    color: whitesmoke;
+    margin-top: 20px; }
     body main h1 .title {
       color: whitesmoke; }
   body main h3 {
@@ -67,6 +70,7 @@ body {
     body main h3 .subtitle {
       color: whitesmoke; }
   body main p {
+    margin-top: 20px;
     color: whitesmoke; }
   body main .botella-zapata {
     text-align: center; }
@@ -74,8 +78,6 @@ body {
     list-style: none;
     color: whitesmoke; }
   body main div h5 {
-    color: whitesmoke; }
-  body main div h4 {
     color: whitesmoke; }
   body main div .imagen {
     object-fit: fill;
