@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <meta name="desciption" content="title">
+    <meta name="keywords" content="vermuteria, zapata, bocata, bebida">
+    <title>Zapata</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
 
 </head>
 
@@ -48,17 +52,23 @@
         </nav>
     </header>
     <main>
-        <h1 class="title">La casa del Sr. Zapata
+        <h1 class="title" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">La casa del Sr. Zapata
         </h1>
-        <h3 class="subtitle">
+        <h3 class="subtitle" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
             La primer vermuteria de Rosario
         </h3>
-        <p>
+        <p data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="500">
             Hasta las historias mas concretas, surgen de vaivenes del destino.
             Al poco tiempo de haber alquilado esta casa, descubrimos un sotano clausurado.
             Sorpresa fue la nuestra al encontrar una habitacion llena de historias congeladas en el tiempo.
         </p>
-        <p>
+        <p data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="500">
             Esta casa pertenecio por mas de 70 años al Sr. Zapata, amante de la carpinteria, las pipas y el vermut.
             Esto lo consideramos una señal y con el fin de que vuelva todo a su orden natural decidimos rendirle un
             homenaje
@@ -66,12 +76,18 @@
         </p>
         </div>
     </main>
-    <footer class="derechos">
+    <footer class="derechos" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="500">
         Todos los derechos resevados 2018
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 
